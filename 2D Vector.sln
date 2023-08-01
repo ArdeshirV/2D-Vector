@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 5.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2D Vector", "_2D Vector\2D Vector.csproj", "{7411605B-129B-42B7-B4FD-50EAA65ED8ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Screen Vector User Control", "Screen Vector User Control\Screen Vector User Control.csproj", "{FE3F34FC-8114-4A1E-A420-3E44544EC3D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericTextBox", "NumericTextBox\NumericTextBox.csproj", "{8C4FB59C-30A6-4FD6-9C4B-DCB63B86DD7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7411605B-129B-42B7-B4FD-50EAA65ED8ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7411605B-129B-42B7-B4FD-50EAA65ED8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7411605B-129B-42B7-B4FD-50EAA65ED8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7411605B-129B-42B7-B4FD-50EAA65ED8ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE3F34FC-8114-4A1E-A420-3E44544EC3D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3F34FC-8114-4A1E-A420-3E44544EC3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3F34FC-8114-4A1E-A420-3E44544EC3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3F34FC-8114-4A1E-A420-3E44544EC3D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4FB59C-30A6-4FD6-9C4B-DCB63B86DD7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4FB59C-30A6-4FD6-9C4B-DCB63B86DD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4FB59C-30A6-4FD6-9C4B-DCB63B86DD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4FB59C-30A6-4FD6-9C4B-DCB63B86DD7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

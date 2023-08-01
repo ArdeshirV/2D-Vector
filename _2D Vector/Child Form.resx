@@ -1,0 +1,2718 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+            Microsoft ResX Schema 
+        
+            Version 1.3
+                
+            The primary goals of this format is to allow a simple XML format 
+            that is mostly human readable. The generation and parsing of the 
+            various data types are done through the TypeConverter classes 
+            associated with the data types.
+        
+            Example:
+        
+                ... ado.net/XML headers & schema ...
+                <resheader name="resmimetype">text/microsoft-resx</resheader>
+                <resheader name="version">1.3</resheader>
+                <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+                <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+                <data name="Name1">this is my long string</data>
+                <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+                <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+                    [base64 mime encoded serialized .NET Framework object]
+                </data>
+                <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+                    [base64 mime encoded string representing a byte array form of the .NET Framework object]
+                </data>
+        
+            There are any number of "resheader" rows that contain simple 
+            name/value pairs.
+            
+            Each data row contains a name, and value. The row also contains a 
+            type or mimetype. Type corresponds to a .NET class that support 
+            text/value conversion through the TypeConverter architecture. 
+            Classes that don't support this are serialized and stored with the 
+            mimetype set.
+                     
+            The mimetype is used for serialized objects, and tells the 
+            ResXResourceReader how to depersist the object. This is currently not 
+            extensible. For a given mimetype the value must be set accordingly:
+        
+            Note - application/x-microsoft.net.object.binary.base64 is the format 
+                   that the ResXResourceWriter will generate, however the reader can 
+                   read any of the formats listed below.
+        
+            mimetype: application/x-microsoft.net.object.binary.base64
+            value   : The object must be serialized with 
+                    : System.Serialization.Formatters.Binary.BinaryFormatter
+                    : and then encoded with base64 encoding.
+        
+            mimetype: application/x-microsoft.net.object.soap.base64
+            value   : The object must be serialized with 
+                    : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+                    : and then encoded with base64 encoding.
+            mimetype: application/x-microsoft.net.object.bytearray.base64
+            value   : The object must be serialized into a byte array 
+                    : using a System.ComponentModel.TypeConverter
+                    : and then encoded with base64 encoding.
+        -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="stbStatusBar.Locked" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="stbStatusBar.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="stbStatusBar.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="stbStatusBar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="stbStatusBar.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="stbStatusBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Bottom</value>
+  </data>
+  <data name="stbStatusBar.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="stbStatusBar.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="stbStatusBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>NoControl</value>
+  </data>
+  <data name="stbStatusBar.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 571</value>
+  </data>
+  <data name="stbStatusBar.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="stbStatusBar.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>848, 22</value>
+  </data>
+  <data name="stbStatusBar.TabIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>8</value>
+  </data>
+  <data name="stbStatusBar.Text">
+    <value />
+  </data>
+  <data name="stbStatusBar.ToolTip">
+    <value />
+  </data>
+  <data name="stbStatusBar.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;stbStatusBar.Name">
+    <value>stbStatusBar</value>
+  </data>
+  <data name="&gt;&gt;stbStatusBar.Type">
+    <value>System.Windows.Forms.StatusBar, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stbStatusBar.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;stbStatusBar.ZOrder">
+    <value>8</value>
+  </data>
+  <data name="pnlMousePosition.Alignment" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Left</value>
+  </data>
+  <data name="pnlMousePosition.Icon" type="System.Drawing.Icon, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAQAAAAAAAoAQAAJgAAACAgEAAAAAAA6AIAAE4BAAAoAAAAEAAAACAAAAABAAQAAAAAAIAA
+        AAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAICAgADAwMAAAAD/AAD/
+        AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7AAAAAAAAA7MA
+        AAAAMAA7MAAAAAAzADsAAAAAADswswAAAAAAO7szMwAAAAA7uzMAAAAAADuzMAAAAAAAOzMAAAAAAAAz
+        AAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP//AAD/nwAA/w8AAP4fAADMPwAAxD8AAMB/
+        AADAHwAAwD8AAMB/AADA/wAAw/8AAMf/AADf/wAA//8AACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAA
+        AAAAAAAAEAAAABAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD/
+        /wD/AAAA/wD/AP//AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAADMwAAAAAAAAAAAAAAAAAAA7MAAAAAAAAAAAAAAAAAADswAAAAAAAAAAAAAAAAAAA7MAAAAAAA
+        AAAAAAAAAwADswAAAAAAAAAAAAAAAAMwA7MAAAAAAAAAAAAAAAADswswAAAAAAAAAAAAAAAAA7swAAAA
+        AAAAAAAAAAAAAAO7szMzAAAAAAAAAAAAAAADu7MzMAAAAAAAAAAAAAAAA7szMwAAAAAAAAAAAAAAAAO7
+        MzAAAAAAAAAAAAAAAAADszMAAAAAAAAAAAAAAAAAA7MwAAAAAAAAAAAAAAAAAAMzAAAAAAAAAAAAAAAA
+        AAADMAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////
+        /////////////////////////////////////x////4f///+H////D///7w///+Yf///iH///4D///+A
+        D///gB///4A///+Af///gP///4H///+D////h////4////+f////v////////////////////////w==
+</value>
+  </data>
+  <data name="pnlMousePosition.MinWidth" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>10</value>
+  </data>
+  <data name="pnlMousePosition.Text">
+    <value />
+  </data>
+  <data name="pnlMousePosition.ToolTipText">
+    <value>Mouse position.</value>
+  </data>
+  <data name="pnlMousePosition.Width" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>562</value>
+  </data>
+  <data name="pnlLenghtOfCurrentVector.Alignment" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Left</value>
+  </data>
+  <data name="pnlLenghtOfCurrentVector.Icon" type="System.Drawing.Icon, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAICAQAAAAAADoAgAAJgAAABAQEAAAAAAAKAEAAA4DAAAoAAAAIAAAAEAAAAABAAQAAAAAAAAC
+        AAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAMDAwACAgIAAAAD/AAD/
+        AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //8oAAAAEAAAACAAAAABAAQAAAAAAIAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAgAAAgAAAAICAAIAA
+        AACAAIAAgIAAAMDAwACAgIAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAEAAAAAAAAAER
+        AAAAAAAAEBAQAAAAAAAAEAAAAAAAAAAQAAAAQAAAABAEAAQAAAAAEABAREREREQEREQEAAAAABAAQABA
+        AAAAEAQAAAAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAABAQEAAAAAAAAREAAAAAAAAAEAAA/98AAP+P
+        AAD/VwAA/98AAP/fAADf2wAAv90AAAAAAAC/3QAA39sAAP/fAAD/3wAA/98AAP9XAAD/jwAA/98AAA==
+</value>
+  </data>
+  <data name="pnlLenghtOfCurrentVector.MinWidth" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>10</value>
+  </data>
+  <data name="pnlLenghtOfCurrentVector.Text">
+    <value />
+  </data>
+  <data name="pnlLenghtOfCurrentVector.ToolTipText">
+    <value>Horizontal value and Vertical value for Selected Vector.</value>
+  </data>
+  <data name="pnlLenghtOfCurrentVector.Width" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>31</value>
+  </data>
+  <data name="pnlResult.Alignment" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Left</value>
+  </data>
+  <data name="pnlResult.Icon" type="System.Drawing.Icon, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAICAQAAAAAADoAgAAJgAAABAQEAAAAAAAKAEAAA4DAAAoAAAAIAAAAEAAAAABAAQAAAAAAAAC
+        AAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAMDAwACAgIAAAAD/AAD/
+        AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJmZmZmZmZmZmZmZAAAAAACZmZmZmZmZmZmZmQkAAAAAmZ
+        mZmZmQCZmZmZkJkAAAAJmZmZmZkAmZmZmZCZkAAACZmZmZAAAAAJmZmQmZkAAAmZmZmQmQCZCZmZkJmZ
+        AAAJmZmZmQAAAJmZmZCZmQAACZmZmZmZmZmZmZmQmZkAAAmZmZmZmZmZmZmZkJmZAAAAAAAAAAAAAAAA
+        AAAJmQAAABEREREREREREREREJkAAAABEREREREREREREREJAAAAABEREREREREREREREAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAVVVVVVVVVVVVUJAAAAAAUFVVVVVVVVVVVVCQAAAAAFUFVVVVVVVVVVVQmQAAAA
+        BVBVVVVVVVVVVVUJkAAAAAVQVVVVVVVVVVVVCZAAAAAFUFVVVVVVVVVVVQmQAAAABVBVVVVVVVVVVVUJ
+        kAAAAAUFVVVVVVVVVVVVCZAAAAAAVVVVVVVVVVVVVQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
+        ////////AAAA/wAAAH8AAAA/AAAAHwAAAA8AAAAHAAAABwAAAAcAAAAHAAAABwAAAAeAAAAHwAAAB+AA
+        AAfwAAAH8AAAB/AAAAfwAAAD8AAAA/AAAAPwAAAD8AAAA/AAAAPwAAAH8AAAB///////////////////
+        //8oAAAAEAAAACAAAAABAAQAAAAAAIAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAgAAAgAAAAICAAIAA
+        AACAAIAAgIAAAMDAwACAgIAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAAAAACZmZCZmQ
+        AAAJmZkJmZCQAAmZmQmZkJAACZmQAJmQkAAJmZmZmZCQAAAAAAAAAJAAARERERERAAAAAAAAAAAAAAAF
+        VVVVVVAAAABVVVVVUAAAAFVVVVVQAAAFVVVVVVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAD
+        AAAAAwAAAAMAAAADAAAAAwAAAAMAAIADAADAAwAAwAMAAMABAADAAQAAwAEAAMADAAD//wAA//8AAA==
+</value>
+  </data>
+  <data name="pnlResult.MinWidth" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>10</value>
+  </data>
+  <data name="pnlResult.Text">
+    <value />
+  </data>
+  <data name="pnlResult.ToolTipText">
+    <value>Result of calculating.</value>
+  </data>
+  <data name="pnlResult.Width" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>31</value>
+  </data>
+  <data name="pnlTotalVectors.Alignment" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Left</value>
+  </data>
+  <data name="pnlTotalVectors.Icon" type="System.Drawing.Icon, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAICAQAAAAAADoAgAAJgAAABAQEAAAAAAAKAEAAA4DAAAoAAAAIAAAAEAAAAABAAQAAAAAAAAC
+        AAAAAAAAAAAAABAAAAAQAAAAAAAAAACAAACAAAAAgIAAAAAAgAAAgIAAgACAAICAgADAwMAAAP8AAP8A
+        AAD//wAAAAD/AAD//wD/AP8A////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
+        /////////////////////////////////////////////////////////////+8YzGPu99u31hfbt9bW
+        27PXOIxlu//f/7v/3/8R////////////////////////////////////////////////////////////
+        //8oAAAAEAAAACAAAAABAAQAAAAAAIAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAgAAAgAAAAICAAIAA
+        AACAAIAAgIAAAMDAwACAgIAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFVQAAAAAAAAAAVVVVAAAAAAAAAABVVQAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAACZkAAAAAmZmQAAAACZkAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAPf/
+        AAD7/wAA/f8AAP7/AACPfwAA8D8AAP/DAAD/7wAA//cAAP/7AAD/jQAA8H8AAI//AAD//wAA//8AAA==
+</value>
+  </data>
+  <data name="pnlTotalVectors.MinWidth" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>10</value>
+  </data>
+  <data name="pnlTotalVectors.Text">
+    <value>0</value>
+  </data>
+  <data name="pnlTotalVectors.ToolTipText">
+    <value>Number of current vectors.</value>
+  </data>
+  <data name="pnlTotalVectors.Width" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>41</value>
+  </data>
+  <data name="pnlZoom.Alignment" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Left</value>
+  </data>
+  <data name="pnlZoom.Icon" type="System.Drawing.Icon, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAQAEBAQAAAAAAAoAQAARgAAACAgEAAAAAAA6AIAAG4BAAAgIAAAAAAAAKgIAABWBAAAEBAAAAAA
+        AABoBQAA/gwAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAACAAACA
+        AAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8AAAAAAAAA
+        AAAAhwAAAAAAAACDcAAAAAAAAIt4AAAAAAAACLeAAAAAAAAAs3AAAAAAAAALeIiIAAAAAACI//+AAAAA
+        AIj///gAAAAAj///9wAAAACIj//3AAAAAI6P//cAAAAAjuiI+AAAAACI7o6AAAAAAAiIiIAAAAAAAAAA
+        AAD//wAAz/8AAMf/AADD/wAA4f8AAPH/AAD4DwAA/AcAAPwDAAD8AwAA/AMAAPwDAAD8AwAA/AcAAP4H
+        AAD//wAAKAAAACAAAABAAAAAAQAEAAAAAAAAAgAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAIAAAIAAAACA
+        gACAAAAAgACAAICAAACAgIAAwMDAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAId4AA
+        AAAAAAAAAAAAAAAACHd4AAAAAAAAAAAAAAAAAAizd4AAAAAAAAAAAAAAAAAIuzd4AAAAAAAAAAAAAAAA
+        AIuzd4AAAAAAAAAAAAAAAAAIuzd4AAAAAAAAAAAAAAAAAIuzd4AAAAAAAAAAAAAAAAAIuzdwCIiIgAAA
+        AAAAAAAAAIu3eIh4iIiAAAAAAAAAAAAIiHeIju7oiAAAAAAAAAAAAAiIj//+7uiAAAAAAAAAAAAIiP//
+        //7ueAAAAAAAAAAACI+P////7ocAAAAAAAAAAIiPj/////7ngAAAAAAAAACI/4j////+54AAAAAAAAAA
+        iPiI/////+eAAAAAAAAAAIj+6P/////3gAAAAAAAAAAIj+iP////hwAAAAAAAAAACI/+6IiI/4gAAAAA
+        AAAAAAiI/+6Ij/hwAAAAAAAAAAAAiP////+HgAAAAAAAAAAAAAh4j/iIeAAAAAAAAAAAAAAACHd4iAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/////////////////////4f///+D////gf///4D////Af///4D
+        ////Af///4GB///AAH//4AA///gAH//4AA//+AAP//AAB//wAAf/8AAH//AAB//4AA//+AAP//gAH//8
+        AB///gA///+A////////////////////////////KAAAACAAAABAAAAAAQAIAAAAAAAABAAAAAAAAAAA
+        AAAAAQAAAAEAAAAAAAAAAIAAAIAAAACAgACAAAAAgACAAICAAADAwMAAwNzAAPDKpgAEBAQACAgIAAwM
+        DAAREREAFhYWABwcHAAiIiIAKSkpAFVVVQBNTU0AQkJCADk5OQCAfP8AUFD/AJMA1gD/7MwAxtbvANbn
+        5wCQqa0AAAAzAAAAZgAAAJkAAADMAAAzAAAAMzMAADNmAAAzmQAAM8wAADP/AABmAAAAZjMAAGZmAABm
+        mQAAZswAAGb/AACZAAAAmTMAAJlmAACZmQAAmcwAAJn/AADMAAAAzDMAAMxmAADMmQAAzMwAAMz/AAD/
+        ZgAA/5kAAP/MADMAAAAzADMAMwBmADMAmQAzAMwAMwD/ADMzAAAzMzMAMzNmADMzmQAzM8wAMzP/ADNm
+        AAAzZjMAM2ZmADNmmQAzZswAM2b/ADOZAAAzmTMAM5lmADOZmQAzmcwAM5n/ADPMAAAzzDMAM8xmADPM
+        mQAzzMwAM8z/ADP/MwAz/2YAM/+ZADP/zAAz//8AZgAAAGYAMwBmAGYAZgCZAGYAzABmAP8AZjMAAGYz
+        MwBmM2YAZjOZAGYzzABmM/8AZmYAAGZmMwBmZmYAZmaZAGZmzABmmQAAZpkzAGaZZgBmmZkAZpnMAGaZ
+        /wBmzAAAZswzAGbMmQBmzMwAZsz/AGb/AABm/zMAZv+ZAGb/zADMAP8A/wDMAJmZAACZM5kAmQCZAJkA
+        zACZAAAAmTMzAJkAZgCZM8wAmQD/AJlmAACZZjMAmTNmAJlmmQCZZswAmTP/AJmZMwCZmWYAmZmZAJmZ
+        zACZmf8AmcwAAJnMMwBmzGYAmcyZAJnMzACZzP8Amf8AAJn/MwCZzGYAmf+ZAJn/zACZ//8AzAAAAJkA
+        MwDMAGYAzACZAMwAzACZMwAAzDMzAMwzZgDMM5kAzDPMAMwz/wDMZgAAzGYzAJlmZgDMZpkAzGbMAJlm
+        /wDMmQAAzJkzAMyZZgDMmZkAzJnMAMyZ/wDMzAAAzMwzAMzMZgDMzJkAzMzMAMzM/wDM/wAAzP8zAJn/
+        ZgDM/5kAzP/MAMz//wDMADMA/wBmAP8AmQDMMwAA/zMzAP8zZgD/M5kA/zPMAP8z/wD/ZgAA/2YzAMxm
+        ZgD/ZpkA/2bMAMxm/wD/mQAA/5kzAP+ZZgD/mZkA/5nMAP+Z/wD/zAAA/8wzAP/MZgD/zJkA/8zMAP/M
+        /wD//zMAzP9mAP//mQD//8wAZmb/AGb/ZgBm//8A/2ZmAP9m/wD//2YAIQClAF9fXwB3d3cAhoaGAJaW
+        lgDLy8sAsrKyANfX1wDd3d0A4+PjAOrq6gDx8fEA+Pj4APD7/wCkoKAAgICAAAAA/wAA/wAAAP//AP8A
+        AAD/AP8A//8AAP///wAKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoH
+        kuy1CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCvdubu21CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKHFNSbu21CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgqaelNSbu21CgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgqaelNSbu21CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgqaelNSbu21CgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgqaelNSbu0HCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgqaelNSbpIJCgAAAAAA
+        AAAKCgoKCgoKCgoKCgoKCgoKCgqaelN07by8tbW1tbu1tQkKCgoKCgoKCgoKCgoKCgoKCgqamgeS7bUJ
+        GeLi4hkJtbUKCgoKCgoKCgoKCgoKCgoKCgoKCbW1CeLi4uLi9P/0tbUKCgoKCgoKCgoKCgoKCgoKCgoJ
+        tQkZGeLi9P/////ztQkKCgoKCgoKCgoKCgoKCgoKCgcJGRkZ4uL0//////QJtQoKCgoKCgoKCgoKCgoK
+        CgoJtQkZCRni4vT/////4hmRCQoKCgoKCgoKCgoKCgoKCgm1GRncGeLi4v////TiGbUJCgoKCgoKCgoK
+        CgoKCgoKCbXiGdwZGeLi4uLi4uLitQkKCgoKCgoKCgoKCgoKCgoJtRkZGRkZ4uLi4uLi4hm1CQoKCgoK
+        CgoKCgoKCgoKCgm1CeIZCQkZGRni4hniCa4JCgoKCgoKCgoKCgoKCgoKCQcJ////GRkZGRkZGRm1tQoK
+        CgoKCgoKCgoKCgoKCgoKCbXx//8ZGQncCRkZCe0KCgoKCgoKCgoKCgoKCgoKCgoKCbXy//8ZGRniGQm1
+        CQoKCgoKCgoKCgoKCgoKCgoKCgoKCbW1CRkZGQkJtQkKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCbXtkbW1
+        tQkKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoK///////////////////////////4f///+D////gf///4D////Af///4D
+        ////Af///4D////AAH//4AA///gAH//4AA//+AAP//AAB//wAAf/8AAH//AAB//wAAf/8AAP//gAH//8
+        AB///gA///8A//////////////////////8oAAAAEAAAACAAAAABAAgAAAAAAAABAAAAAAAAAAAAAAAB
+        AAAAAQAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAMDAwADA3MAA8MqmAAQEBAAICAgADAwMABER
+        EQAWFhYAHBwcACIiIgApKSkAVVVVAE1NTQBCQkIAOTk5AIB8/wBQUP8AkwDWAP/szADG1u8A1ufnAJCp
+        rQAAADMAAABmAAAAmQAAAMwAADMAAAAzMwAAM2YAADOZAAAzzAAAM/8AAGYAAABmMwAAZmYAAGaZAABm
+        zAAAZv8AAJkAAACZMwAAmWYAAJmZAACZzAAAmf8AAMwAAADMMwAAzGYAAMyZAADMzAAAzP8AAP9mAAD/
+        mQAA/8wAMwAAADMAMwAzAGYAMwCZADMAzAAzAP8AMzMAADMzMwAzM2YAMzOZADMzzAAzM/8AM2YAADNm
+        MwAzZmYAM2aZADNmzAAzZv8AM5kAADOZMwAzmWYAM5mZADOZzAAzmf8AM8wAADPMMwAzzGYAM8yZADPM
+        zAAzzP8AM/8zADP/ZgAz/5kAM//MADP//wBmAAAAZgAzAGYAZgBmAJkAZgDMAGYA/wBmMwAAZjMzAGYz
+        ZgBmM5kAZjPMAGYz/wBmZgAAZmYzAGZmZgBmZpkAZmbMAGaZAABmmTMAZplmAGaZmQBmmcwAZpn/AGbM
+        AABmzDMAZsyZAGbMzABmzP8AZv8AAGb/MwBm/5kAZv/MAMwA/wD/AMwAmZkAAJkzmQCZAJkAmQDMAJkA
+        AACZMzMAmQBmAJkzzACZAP8AmWYAAJlmMwCZM2YAmWaZAJlmzACZM/8AmZkzAJmZZgCZmZkAmZnMAJmZ
+        /wCZzAAAmcwzAGbMZgCZzJkAmczMAJnM/wCZ/wAAmf8zAJnMZgCZ/5kAmf/MAJn//wDMAAAAmQAzAMwA
+        ZgDMAJkAzADMAJkzAADMMzMAzDNmAMwzmQDMM8wAzDP/AMxmAADMZjMAmWZmAMxmmQDMZswAmWb/AMyZ
+        AADMmTMAzJlmAMyZmQDMmcwAzJn/AMzMAADMzDMAzMxmAMzMmQDMzMwAzMz/AMz/AADM/zMAmf9mAMz/
+        mQDM/8wAzP//AMwAMwD/AGYA/wCZAMwzAAD/MzMA/zNmAP8zmQD/M8wA/zP/AP9mAAD/ZjMAzGZmAP9m
+        mQD/ZswAzGb/AP+ZAAD/mTMA/5lmAP+ZmQD/mcwA/5n/AP/MAAD/zDMA/8xmAP/MmQD/zMwA/8z/AP//
+        MwDM/2YA//+ZAP//zABmZv8AZv9mAGb//wD/ZmYA/2b/AP//ZgAhAKUAX19fAHd3dwCGhoYAlpaWAMvL
+        ywCysrIA19fXAN3d3QDj4+MA6urqAPHx8QD4+PgA8Pv/AKSgoACAgIAAAAD/AAD/AAAA//8A/wAAAP8A
+        /wD//wAA////AAoKCgoKCgoKCgoKCgoKCgp6B+wKCgoKCgoKCgoKCgoKehxS7bUKCgoKCgoKCgoKCgp6
+        elJutQoKCgoKCgoKCgoKCppTUu0KCgoKCgoKCgoKCgoKmnpSkgoKCgoKCgoKCgoKCgoKmpK1CeLiGbUK
+        CgoKCgoKCgq1CeLi4vT0tQoKCgoKCgoKCRkZ4v///wm1CgoKCgoKCRncGeL///QZtQoKCgoKCgkZGRni
+        4uLiGbUKCgoKCgoJCRkJGRniGQmuCgoKCgoKCrX//xncCRntCgoKCgoKCgoKtbUZGQm1CgoKCgoKCgoK
+        Cgm1kbW1CgoKCgoKCgoKCgoKCgoKCgoKCgr//wAAH/8AAAf/AACD/wAAw/8AAOH/AAD4BwAA/AMAAPwB
+        AAD4AQAA+AEAAPgBAAD8AwAA/gcAAP4PAAD//wAA
+</value>
+  </data>
+  <data name="pnlZoom.MinWidth" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>10</value>
+  </data>
+  <data name="pnlZoom.Text">
+    <value />
+  </data>
+  <data name="pnlZoom.ToolTipText">
+    <value>Zoom size.</value>
+  </data>
+  <data name="pnlZoom.Width" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>100</value>
+  </data>
+  <data name="pnlArrangeModeNormal.Alignment" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Left</value>
+  </data>
+  <data name="pnlArrangeModeNormal.Icon" type="System.Drawing.Icon, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAACIoAAAAAAAAIiKAAAAAACIiIigAAAACIiIoIogAAiiAIigAIoACKAAiKAAigAKAAAAAAA
+        IoAoAAAAAAAigCgAAAAAACKAKAAAAAAAIoAiAAAAAAIoACKIAAAAAigAAiiAAAAigAAAIiiIgigAAAAA
+        AiIoAAAAAAACIiAAAAD4fwAA+D8AAOAfAADABwAACGMAABhjAAA/8QAAP/EAAD/xAAA/8QAAP+MAAA/j
+        AACHxwAAwA8AAPg/AAD4fwAA
+</value>
+  </data>
+  <data name="pnlArrangeModeNormal.MinWidth" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>0</value>
+  </data>
+  <data name="pnlArrangeModeNormal.Text">
+    <value>Normal</value>
+  </data>
+  <data name="pnlArrangeModeNormal.ToolTipText">
+    <value>Arrange mode.</value>
+  </data>
+  <data name="pnlArrangeModeNormal.Width" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>67</value>
+  </data>
+  <data name="pnlArrangeModeCenter.Alignment" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Left</value>
+  </data>
+  <data name="pnlArrangeModeCenter.Icon" type="System.Drawing.Icon, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAALAAAAAAAAAAswAAAAAAAAALgAAAAAAAAAuAAAAAAAAAADAAMAAAAIAAswuA
+        AAAAszOzswAAAAAAALg7u7u4AAAAu4MAAAAAAAs7i4AAAAAAswsAswAAAAswAAALgAAAswAAAACzAAsw
+        AAAAAAsAswAAAAAAAAD//wAA9/8AAPP/AAD5/wAA+f8AAP3fAADcnwAAwD8AAPwAAAD8PwAA+B8AAPLP
+        AADn5wAAz/MAAJ/7AAA//wAA
+</value>
+  </data>
+  <data name="pnlArrangeModeCenter.MinWidth" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>0</value>
+  </data>
+  <data name="pnlArrangeModeCenter.Text">
+    <value>Center</value>
+  </data>
+  <data name="pnlArrangeModeCenter.ToolTipText">
+    <value>Arrange mode.</value>
+  </data>
+  <data name="pnlArrangeModeCenter.Width" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>0</value>
+  </data>
+  <data name="pnlArrangeModeAdd.Alignment" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Left</value>
+  </data>
+  <data name="pnlArrangeModeAdd.Icon" type="System.Drawing.Icon, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAKqAAAAAAAAAqqgAAAAAAACqqAAAAAAAAKqoAAAAAAAAqqgA
+        AAAAiIiqqIiAAAqqqqqqqqgACqqqqqqqqoAAqqqqqqqoAAAAAKqoAAAAAAAAqqgAAAAAAACqqAAAAAAA
+        AKqAAAAAAAAAAAAAAAD//wAA//8AAPx/AAD8PwAA/D8AAPw/AAD8PwAAwAcAAIADAACAAQAAwAMAAPw/
+        AAD8PwAA/D8AAPx/AAD//wAA
+</value>
+  </data>
+  <data name="pnlArrangeModeAdd.MinWidth" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>0</value>
+  </data>
+  <data name="pnlArrangeModeAdd.Text">
+    <value>Add All</value>
+  </data>
+  <data name="pnlArrangeModeAdd.ToolTipText">
+    <value>Arrange mode.</value>
+  </data>
+  <data name="pnlArrangeModeAdd.Width" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>0</value>
+  </data>
+  <data name="mnuMainMenu.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>99, 4</value>
+  </data>
+  <data name="mnuMainMenu.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="mnuChildFile.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFile.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="mnuChildFile.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFile.Text">
+    <value>&amp;File</value>
+  </data>
+  <data name="mnuChildFile.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFileSave.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFileSave.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>CtrlS</value>
+  </data>
+  <data name="mnuChildFileSave.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFileSave.Text">
+    <value>&amp;Save</value>
+  </data>
+  <data name="mnuChildFileSave.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFileSaveAs.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFileSaveAs.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="mnuChildFileSaveAs.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFileSaveAs.Text">
+    <value>Save &amp;As...</value>
+  </data>
+  <data name="mnuChildFileSaveAs.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFileSaveAPicture.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFileSaveAPicture.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>CtrlI</value>
+  </data>
+  <data name="mnuChildFileSaveAPicture.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFileSaveAPicture.Text">
+    <value>Save &amp;Image...</value>
+  </data>
+  <data name="mnuChildFileSaveAPicture.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFileSeperator2.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFileSeperator2.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="mnuChildFileSeperator2.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFileSeperator2.Text">
+    <value>-</value>
+  </data>
+  <data name="mnuChildFileSeperator2.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFilePrintSetup.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFilePrintSetup.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>CtrlShiftP</value>
+  </data>
+  <data name="mnuChildFilePrintSetup.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFilePrintSetup.Text">
+    <value>Print &amp;Setup...</value>
+  </data>
+  <data name="mnuChildFilePrintSetup.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFilePrintPreview.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFilePrintPreview.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>CtrlShiftV</value>
+  </data>
+  <data name="mnuChildFilePrintPreview.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFilePrintPreview.Text">
+    <value>Print Pre&amp;view...</value>
+  </data>
+  <data name="mnuChildFilePrintPreview.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFilePrint.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFilePrint.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>CtrlP</value>
+  </data>
+  <data name="mnuChildFilePrint.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFilePrint.Text">
+    <value>&amp;Print...</value>
+  </data>
+  <data name="mnuChildFilePrint.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFileSeperator3.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFileSeperator3.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="mnuChildFileSeperator3.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildFileSeperator3.Text">
+    <value>-</value>
+  </data>
+  <data name="mnuChildFileSeperator3.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildVector.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildVector.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="mnuChildVector.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildVector.Text">
+    <value>&amp;Vector</value>
+  </data>
+  <data name="mnuChildVector.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildVectorNew.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildVectorNew.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>CtrlE</value>
+  </data>
+  <data name="mnuChildVectorNew.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildVectorNew.Text">
+    <value>&amp;Create New Vector...</value>
+  </data>
+  <data name="mnuChildVectorNew.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuVectorSeperatorM.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuVectorSeperatorM.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="mnuVectorSeperatorM.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuVectorSeperatorM.Text">
+    <value>-</value>
+  </data>
+  <data name="mnuVectorSeperatorM.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildVectorDeleteSelected.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildVectorDeleteSelected.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="mnuChildVectorDeleteSelected.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildVectorDeleteSelected.Text">
+    <value>Delete &amp;Selected Vector</value>
+  </data>
+  <data name="mnuChildVectorDeleteSelected.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildVectorDeleteLast.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildVectorDeleteLast.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="mnuChildVectorDeleteLast.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildVectorDeleteLast.Text">
+    <value>Delete &amp;Last Created Vector</value>
+  </data>
+  <data name="mnuChildVectorDeleteLast.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildVectorDeleteAll.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildVectorDeleteAll.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="mnuChildVectorDeleteAll.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildVectorDeleteAll.Text">
+    <value>Delete &amp;All Vectors</value>
+  </data>
+  <data name="mnuChildVectorDeleteAll.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuVectorSeperator.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuVectorSeperator.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="mnuVectorSeperator.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuVectorSeperator.Text">
+    <value>-</value>
+  </data>
+  <data name="mnuVectorSeperator.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuReset.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuReset.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>CtrlR</value>
+  </data>
+  <data name="mnuReset.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuReset.Text">
+    <value>&amp;Draw in Normal Position</value>
+  </data>
+  <data name="mnuReset.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuMakeCenter.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuMakeCenter.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>CtrlF</value>
+  </data>
+  <data name="mnuMakeCenter.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuMakeCenter.Text">
+    <value>&amp;Make Start Position Center</value>
+  </data>
+  <data name="mnuMakeCenter.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuAdd.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuAdd.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>CtrlA</value>
+  </data>
+  <data name="mnuAdd.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuAdd.Text">
+    <value>&amp;Add All Vectors</value>
+  </data>
+  <data name="mnuAdd.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildSeperator1.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildSeperator1.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="mnuChildSeperator1.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildSeperator1.Text">
+    <value>-</value>
+  </data>
+  <data name="mnuChildSeperator1.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildVectorProperties.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildVectorProperties.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="mnuChildVectorProperties.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildVectorProperties.Text">
+    <value>P&amp;roperties...</value>
+  </data>
+  <data name="mnuChildVectorProperties.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildTools.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildTools.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="mnuChildTools.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildTools.Text">
+    <value>&amp;Tools</value>
+  </data>
+  <data name="mnuChildTools.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildToolsZoom.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildToolsZoom.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>CtrlZ</value>
+  </data>
+  <data name="mnuChildToolsZoom.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildToolsZoom.Text">
+    <value>&amp;Zoom...</value>
+  </data>
+  <data name="mnuChildToolsZoom.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildToolsCalculator.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildToolsCalculator.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>CtrlU</value>
+  </data>
+  <data name="mnuChildToolsCalculator.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildToolsCalculator.Text">
+    <value>&amp;Calculator...</value>
+  </data>
+  <data name="mnuChildToolsCalculator.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildToolsS1.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildToolsS1.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="mnuChildToolsS1.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="mnuChildToolsS1.Text">
+    <value>-</value>
+  </data>
+  <data name="mnuChildToolsS1.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItem1.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItem1.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="menuItem1.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItem1.Text">
+    <value />
+  </data>
+  <data name="menuItem1.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="ctxMainContextMenu.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>376, 3</value>
+  </data>
+  <data name="ctxMainContextMenu.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>No</value>
+  </data>
+  <data name="CtxMenu10.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu10.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenu10.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu10.Text">
+    <value>%10</value>
+  </data>
+  <data name="CtxMenu10.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu20.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu20.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenu20.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu20.Text">
+    <value>%20</value>
+  </data>
+  <data name="CtxMenu20.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu30.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu30.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenu30.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu30.Text">
+    <value>%30</value>
+  </data>
+  <data name="CtxMenu30.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu40.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu40.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenu40.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu40.Text">
+    <value>%40</value>
+  </data>
+  <data name="CtxMenu40.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu50.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu50.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenu50.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu50.Text">
+    <value>%50</value>
+  </data>
+  <data name="CtxMenu50.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu60.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu60.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenu60.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu60.Text">
+    <value>%60</value>
+  </data>
+  <data name="CtxMenu60.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu70.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu70.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenu70.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu70.Text">
+    <value>%70</value>
+  </data>
+  <data name="CtxMenu70.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu80.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu80.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenu80.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu80.Text">
+    <value>%80</value>
+  </data>
+  <data name="CtxMenu80.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu90.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu90.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenu90.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu90.Text">
+    <value>%90</value>
+  </data>
+  <data name="CtxMenu90.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenuS1.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenuS1.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenuS1.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenuS1.Text">
+    <value>-</value>
+  </data>
+  <data name="CtxMenuS1.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu100.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu100.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenu100.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu100.Text">
+    <value>%100</value>
+  </data>
+  <data name="CtxMenu100.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenuS2.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenuS2.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenuS2.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenuS2.Text">
+    <value>-</value>
+  </data>
+  <data name="CtxMenuS2.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu110.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu110.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenu110.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu110.Text">
+    <value>%110</value>
+  </data>
+  <data name="CtxMenu110.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu120.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu120.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenu120.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu120.Text">
+    <value>%120</value>
+  </data>
+  <data name="CtxMenu120.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu130.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu130.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenu130.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu130.Text">
+    <value>%130</value>
+  </data>
+  <data name="CtxMenu130.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu140.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu140.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenu140.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu140.Text">
+    <value>%140</value>
+  </data>
+  <data name="CtxMenu140.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu150.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu150.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenu150.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu150.Text">
+    <value>%150</value>
+  </data>
+  <data name="CtxMenu150.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu160.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu160.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenu160.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu160.Text">
+    <value>%160</value>
+  </data>
+  <data name="CtxMenu160.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu170.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu170.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenu170.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu170.Text">
+    <value>%170</value>
+  </data>
+  <data name="CtxMenu170.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu180.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu180.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenu180.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu180.Text">
+    <value>%180</value>
+  </data>
+  <data name="CtxMenu180.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu190.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu190.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenu190.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu190.Text">
+    <value>%190</value>
+  </data>
+  <data name="CtxMenu190.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu200.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu200.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenu200.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenu200.Text">
+    <value>%200</value>
+  </data>
+  <data name="CtxMenu200.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenuS3.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenuS3.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenuS3.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenuS3.Text">
+    <value>-</value>
+  </data>
+  <data name="CtxMenuS3.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenuCustom.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenuCustom.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="CtxMenuCustom.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="CtxMenuCustom.Text">
+    <value>&amp;Zoom...</value>
+  </data>
+  <data name="CtxMenuCustom.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="tltToolTip.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>10, 6</value>
+  </data>
+  <data name="btnCenter.Locked" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="btnCenter.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnCenter.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnCenter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="btnCenter.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnCenter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="btnCenter.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="btnCenter.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Standard</value>
+  </data>
+  <data name="btnCenter.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnCenter.Image" type="System.Drawing.Bitmap, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAARdJREFUWEfdVm0K
+        hTAM29E9mjfboz8CMWxr7SrKE0SxdknTj6313rrdx9F6e+t6nQQI/L0SFuB5nutUP5EOXjNMoDIdtwhY
+        I1TWBAKxLnOj1y5k50yHwt+Ab4MDcFUTZhsRU8nT4F46ogQy6l18OCKemKNC3cq5x1RrgnMMtVBsW7LP
+        iKgSKwJeMGk7tygTUDJpgIgjSJjMj+Z81mIAVjVm3/U/DiAS8LAjsLFAgRnI6rtbqCNnq3LcCs62yPuQ
+        gO4DuhDLjJa7vdmsdGdAzHB+8nTUY1xJJyiYN+vZXkLAq8oVyOsEdBx7waTsXpSePQXKZ4PUyWYLlZwf
+        jS5C8jMEImRL/ymddBlmW7tXBlB9QKBirc+t8QN4eLFnX6rcOwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnCenter.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnCenter.ImageIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>-1</value>
+  </data>
+  <data name="btnCenter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCenter.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>496, 3</value>
+  </data>
+  <data name="btnCenter.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="btnCenter.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>80, 41</value>
+  </data>
+  <data name="btnCenter.TabIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>4</value>
+  </data>
+  <data name="btnCenter.Text">
+    <value>Cen&amp;ter</value>
+  </data>
+  <data name="btnCenter.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnCenter.ToolTip">
+    <value>Draw all Vectors from Screen Center</value>
+  </data>
+  <data name="btnCenter.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnCenter.Name">
+    <value>btnCenter</value>
+  </data>
+  <data name="&gt;&gt;btnCenter.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCenter.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCenter.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="btnResetToNormal.Locked" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="btnResetToNormal.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnResetToNormal.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnResetToNormal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="btnResetToNormal.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnResetToNormal.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="btnResetToNormal.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="btnResetToNormal.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Flat</value>
+  </data>
+  <data name="btnResetToNormal.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnResetToNormal.Image" type="System.Drawing.Bitmap, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAANZJREFUWEftlgsK
+        gEAIRPfoHW1vVkQblPmZSSGIDYIgnX1aflqb18wAm4Glrc24e+8rK8fbBwA7RD2Ic6iWjRMiD6IcfBWX
+        zxYMn+bTwwFQRVl7k0wIPSKNQjL8I7fjfcpZHKFoxRAXp5I/mtYTDjFxYEEBDOO6MhpwMIQASEevVJP/
+        WSfAzMDnVSA6oTnNmA6nlKA/JZGaZdo1onerd0QcsTHmCtZbomnovK8daMZ8Nydm2T4QLCQsAJZ2z+qz
+        nVCDArbifMQvs5HfglF0tAxRPdruTwAbnLawFcf8C5EAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnResetToNormal.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>BottomLeft</value>
+  </data>
+  <data name="btnResetToNormal.ImageIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>-1</value>
+  </data>
+  <data name="btnResetToNormal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>NoControl</value>
+  </data>
+  <data name="btnResetToNormal.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>420, 3</value>
+  </data>
+  <data name="btnResetToNormal.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="btnResetToNormal.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>74, 41</value>
+  </data>
+  <data name="btnResetToNormal.TabIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>3</value>
+  </data>
+  <data name="btnResetToNormal.Text">
+    <value>&amp;Norm</value>
+  </data>
+  <data name="btnResetToNormal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnResetToNormal.ToolTip">
+    <value>Draw all Vectors in Normal Mode</value>
+  </data>
+  <data name="btnResetToNormal.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnResetToNormal.Name">
+    <value>btnResetToNormal</value>
+  </data>
+  <data name="&gt;&gt;btnResetToNormal.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnResetToNormal.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnResetToNormal.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="btnCalculator.Locked" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="btnCalculator.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnCalculator.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnCalculator.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="btnCalculator.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnCalculator.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="btnCalculator.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="btnCalculator.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Standard</value>
+  </data>
+  <data name="btnCalculator.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnCalculator.Image" type="System.Drawing.Bitmap, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk2uBgAAAAAAADYAAAAoAAAAGAAAABcAAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAwMDAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAwMDAAAAAnJwAfyAAfyAAfyAAfyAAfyAAfyAAfyAAfyAAfyAAfyAAfyAAfyAAfyAAfyAAfyAAfyAA
+        fyAAfyAAfyAAfyAAfwoAAAAAAAAA7u4Af3QAf3QAf3QAf3QAf3QAf3QAf3QAf3QAf3QAf3QAf3QAf3QA
+        f3QAf3QAf3QAf3QAf3QAf3QAf3QAf3QAfyQAAAAAAAAA+fkAgIAAUlIANjYASEgAVVUANjYARUUAV1cA
+        NjYAQkIAW1sANjYAPz8AXl4ANjYANjYANjYANjYAODgAgIAAfygAAAAAAAAA+fkAgIAAmpppqqqqICAA
+        mJhiqqqqGxsAlpZbqqqqFRUAlJRTqqqqEBAAqqpkt7e3qqqqqqqqqqqqBQUAgIAAfygAAAAAAAAA+fkA
+        gIAAkJA0vLy4ICAAt7eBwsLCGxsAs7N4xMTEFRUAr69uxcXFEBAAt7dx6Ojo4eHh4eHh4eHhBQUAgIAA
+        fygAAAAAAAAA+fkAgIAAgIAAhoYWcnIAiIgSiIgZcnIAh4cRiIgZcXEAhoYPiIgZcHAAhoYOj48gj48g
+        j48gj48gb28AgIAAfygAAAAAAAAA+fkAgIAAVVUAOzsATEwAWFgAOzsASUkAWloAOzsARkYAXl4AOzsA
+        Q0MAYGAAOzsAQEAAY2MAOzsAPj4AgIAAfygAAAAAAAAA+fkAgIAAR0cWJCQkICAAS0sVJCQkGxsATk4T
+        JCQkFRUAUlIRJCQkEBAAVlYQJCQkCgoAWloOJCQkBQUAgIAAfygAAAAAAAAA+fkAgIAAkpI5vLy4ICAA
+        traAwsLCGxsAsbF2xMTEFRUAra1sxcXFEBAAqaljxsbGCgoApaVZx8fHBQUAgIAAfygAAAAAAAAA+fkA
+        gIAAgIAAsLCUMDAAu7t5ubmkKysAtrZwvLymJycAsrJmvr6oIiIAra1dv7+qHR0AqalUwsKsGRkAgIAA
+        fygAAAAAAAAA+fkAgIAAgIAAiYkebm4Ai4sYi4shbW0AiooXi4sibGwAiYkVi4sibGwAiIgTjIwia2sA
+        h4cRjIwjamoAgIAAfygAAAAAAAAA+fkAgIAAQkIRHBwcICAARkYQHBwcGxsASkoPHBwcFRUATk4NHBwc
+        EBAAUlIMHBwcCgoAV1cLHBwcBQUAgIAAfygAAAAAAAAA+fkAgIAAkJBfmpqaICAAjo5YmpqaGxsAjY1S
+        mpqaFRUAjIxLmpqaEBAAiopEmpqaCgoAioo+mpqaBQUAgIAAfygAAAAAAAAA+fkAgIAAgIAAs7OcLCwA
+        vr5/vLysJycAubl1v7+vIiIAtbVswcGxHh4Ar69iw8OyGBgAq6tZxcW1FBQAgIAAfygAAAAAAAAA+fkA
+        gIAAgIAAi4smamoAjo4fjo4qaWkAjY0cjo4qaGgAjIwaj48rZ2cAiooYj48rZmYAiYkVkJAsZGQAgIAA
+        fygAAAAAAAAA+fkAgIAAXFwAsLAAt7cAt7cAt7cAt7cAt7cAt7cAt7cAt7cAt7cAsLAAgIAAgIAAgIAA
+        gIAAgIAAgIAAgIAAfygAAAAAAAAA+fkAgIAAMTEA7u62/v7C/v7C/v7C/v7C/v7C/v7C/v7C/v7C/v7C
+        7u4AgIAAgIAAgIAAgIAAgIAAgIAAgIAAfygAAAAAAAAA+fkAgIAAMTEA1NTU4+Pj4+Pj4+Pj4+Pj4+Pj
+        4+Pj4+Pj4+Pj4+Pj7u4AgIAAgIAAgIAAgIAAgIAAgIAAgIAAfygAAAAAAAAA+fkAgIAAMTEALS0tMDAw
+        MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwSEgAgIAAgIAAgIAAgIAAgIAAgIAAgIAAfygAAAAAAAAA+fkA
+        srIAg4MAZmYAZmYAZmYAZmYAZmYAZmYAZmYAZmYAZmYAZmYAcHAAsrIAsrIAsrIAsrIAsrIAsrIAsrIA
+        j1sAAAAAAAAA6ekA7e0A7e0A7e0A7e0A7e0A7e0A7e0A7e0A7e0A7e0A7e0A7e0A7e0A7e0A7e0A7e0A
+        7e0A7e0A7e0A7e0AnZ0AAAAAwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwMDA
+</value>
+  </data>
+  <data name="btnCalculator.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnCalculator.ImageIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>-1</value>
+  </data>
+  <data name="btnCalculator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCalculator.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>330, 3</value>
+  </data>
+  <data name="btnCalculator.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="btnCalculator.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>88, 41</value>
+  </data>
+  <data name="btnCalculator.TabIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>2</value>
+  </data>
+  <data name="btnCalculator.Text">
+    <value>Calc&amp;ulator</value>
+  </data>
+  <data name="btnCalculator.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnCalculator.ToolTip">
+    <value>Operate on Vectors</value>
+  </data>
+  <data name="btnCalculator.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnCalculator.Name">
+    <value>btnCalculator</value>
+  </data>
+  <data name="&gt;&gt;btnCalculator.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCalculator.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCalculator.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="btnNew.Locked" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="btnNew.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnNew.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnNew.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="btnNew.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnNew.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="btnNew.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="btnNew.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Standard</value>
+  </data>
+  <data name="btnNew.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnNew.Image" type="System.Drawing.Bitmap, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAQNJREFUWEfNlVkS
+        hCAMRDk6N2cEjCJDFhIwWsWHpSGP7gZC+MITQ0h5aFi0dY9ergDQfATBrY6qnVITU4ADyE2ofyT1BdQd
+        oJWrl7V9n5KVUUc010jClEKCMZpk5QKG/pbmx5alIABMnAFMDk6BGOmzwwyAguXGpxUUxDaAAnYA5OYF
+        IMY63n4A4IJYATAr2wPCHUBrg3Xv1iDW3anKghXgaq4F6I9ivZWNChY7XAG45vwuOVVYYQd22dCQGwH6
+        sOIgmyE4m+7vC0LZN+Mz0FZsAJCvvtxY9wElCeXc6qQogjzIwyVt2v/HQLgDAO8eC5AsaI9qrQm1Dqyw
+        zWKodgf4Z/8B+nRAHuiECzsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnNew.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>BottomLeft</value>
+  </data>
+  <data name="btnNew.ImageIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>-1</value>
+  </data>
+  <data name="btnNew.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>NoControl</value>
+  </data>
+  <data name="btnNew.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>224, 3</value>
+  </data>
+  <data name="btnNew.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="btnNew.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>104, 41</value>
+  </data>
+  <data name="btnNew.TabIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>1</value>
+  </data>
+  <data name="btnNew.Text">
+    <value>&amp;New Vector</value>
+  </data>
+  <data name="btnNew.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnNew.ToolTip">
+    <value>Create New Vector</value>
+  </data>
+  <data name="btnNew.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnNew.Name">
+    <value>btnNew</value>
+  </data>
+  <data name="&gt;&gt;btnNew.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNew.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnNew.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="btnAdd.Locked" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="btnAdd.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnAdd.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnAdd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="btnAdd.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnAdd.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="btnAdd.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="btnAdd.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Standard</value>
+  </data>
+  <data name="btnAdd.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnAdd.Image" type="System.Drawing.Bitmap, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAJhJREFUWEftV9EK
+        gCAM3Kf7af6ZoSWtUDZnU4grxAe93XnUDYnwWB1IVN4YYxnWMjbcRX5KWC3iRb5eBATAgf870Dlh/d2s
+        sy6wnMh1WeFMLovYLiB3BWcRW78DHXl2IdzdrYL43HOptfeBG+q7ISTqDSmIWrghcmmzJEDCT69DAByA
+        A9sdaPQMfcxOhwArwC4lX5ZFreUOHNb68cxZaM1FAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnAdd.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>BottomLeft</value>
+  </data>
+  <data name="btnAdd.ImageIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>-1</value>
+  </data>
+  <data name="btnAdd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>578, 3</value>
+  </data>
+  <data name="btnAdd.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>64, 41</value>
+  </data>
+  <data name="btnAdd.TabIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>5</value>
+  </data>
+  <data name="btnAdd.Text">
+    <value>&amp;Add</value>
+  </data>
+  <data name="btnAdd.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnAdd.ToolTip">
+    <value>Add all Vectors and Calculate Result</value>
+  </data>
+  <data name="btnAdd.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Name">
+    <value>btnAdd</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="btnDeleteLast.Locked" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="btnDeleteLast.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnDeleteLast.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnDeleteLast.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="btnDeleteLast.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnDeleteLast.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="btnDeleteLast.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="btnDeleteLast.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Standard</value>
+  </data>
+  <data name="btnDeleteLast.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnDeleteLast.Image" type="System.Drawing.Bitmap, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAS1JREFUWEftlmsO
+        hCAMhDk6R/NmrFW7wdLHYDVZk92kf1ZsP4d2oJT/z1BgWZamRVYwmXPI10ppMur6HwcluAqh5T3l0opb
+        QChI9EGXAUgRBMIDGN5HFeB1FoSXp9/KNAAVYghOhhZX+2hWAXQ93MRowtl10xM0WyAlezTTGRi34aLC
+        /DwLwM4X1SN3uyV6YNQrCG4v3lYXzoSwcTmingpnAAkk1bEgt3X1dJagKjwOENm2DdB/PX+5tWWKAr1b
+        zm9B1BfyuQMQbYWuQLT3IEB0eI1TYI2kbL7HANBRVABqrd8bk3YDsprxmg8EAIe00Fj+GADqjIACUgXn
+        FqVYsTWGjg/0PaAdaHMA1IzaRDhWrAH0IC8EQEfyUCunwA13gtcCbH1C9HeEd+rJJvwA4VW4QMGKZX4A
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnDeleteLast.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>BottomLeft</value>
+  </data>
+  <data name="btnDeleteLast.ImageIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>-1</value>
+  </data>
+  <data name="btnDeleteLast.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDeleteLast.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>742, 3</value>
+  </data>
+  <data name="btnDeleteLast.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="btnDeleteLast.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>104, 41</value>
+  </data>
+  <data name="btnDeleteLast.TabIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>7</value>
+  </data>
+  <data name="btnDeleteLast.Text">
+    <value>Delete &amp;Last</value>
+  </data>
+  <data name="btnDeleteLast.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnDeleteLast.ToolTip">
+    <value>Delete Last Vector that Created</value>
+  </data>
+  <data name="btnDeleteLast.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteLast.Name">
+    <value>btnDeleteLast</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteLast.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteLast.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteLast.ZOrder">
+    <value>5</value>
+  </data>
+  <data name="btnDeleteAll.Locked" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="btnDeleteAll.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnDeleteAll.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnDeleteAll.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="btnDeleteAll.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnDeleteAll.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="btnDeleteAll.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="btnDeleteAll.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Standard</value>
+  </data>
+  <data name="btnDeleteAll.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnDeleteAll.Image" type="System.Drawing.Bitmap, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAUhJREFUWEftloEO
+        gzAIRP30fpp/1g0NBpGj11qzLdmSJrogvF45dFn+P6DAuq4VrRmiae5Lrros1a/y/k+XheoFifKeckTF
+        ERDcgaPKNiQ5hgFEEQaiawOsAhqHILI8KXgvgMTbhKJIq7jGh/0zAsA845sYNi+TbCTGOohyDiryfli6
+        NpUZWfjS8RTJXnEruhWu+2JB/Oxga16seQeAsSoDFipQSml2/QyAQ3o9AnsULds9DsCqwMiMYlIFWIBR
+        F5yK+2ZURwhEBpJOv4Y0J9spgAWRawVAEN2DCNkuArBzQQBkQ6gxe5QIbfe1ANaWqkKkBKtA2vV2JEdz
+        wQKMQvwugLelOsw2ZesY4O693Oje2nI6QDSIIhCNi/rhlgJPApx8z8qdHYMehZ209iPWT+DjK8cPm7v3
+        fi6gI/g4wKaIfanMvLZyewVenylxLVKxVwkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnDeleteAll.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>BottomLeft</value>
+  </data>
+  <data name="btnDeleteAll.ImageIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>-1</value>
+  </data>
+  <data name="btnDeleteAll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDeleteAll.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>644, 3</value>
+  </data>
+  <data name="btnDeleteAll.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="btnDeleteAll.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>96, 41</value>
+  </data>
+  <data name="btnDeleteAll.TabIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>6</value>
+  </data>
+  <data name="btnDeleteAll.Text">
+    <value>&amp;Delete All</value>
+  </data>
+  <data name="btnDeleteAll.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnDeleteAll.ToolTip">
+    <value>Delete all Vectors</value>
+  </data>
+  <data name="btnDeleteAll.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteAll.Name">
+    <value>btnDeleteAll</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteAll.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteAll.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteAll.ZOrder">
+    <value>6</value>
+  </data>
+  <data name="grpVectorChooser.Locked" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="grpVectorChooser.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="grpVectorChooser.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="grpVectorChooser.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="grpVectorChooser.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="grpVectorChooser.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="grpVectorChooser.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="grpVectorChooser.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="grpVectorChooser.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="grpVectorChooser.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>3, -3</value>
+  </data>
+  <data name="grpVectorChooser.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="grpVectorChooser.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>219, 48</value>
+  </data>
+  <data name="grpVectorChooser.TabIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>0</value>
+  </data>
+  <data name="grpVectorChooser.Text">
+    <value />
+  </data>
+  <data name="grpVectorChooser.ToolTip">
+    <value />
+  </data>
+  <data name="grpVectorChooser.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;grpVectorChooser.Name">
+    <value>grpVectorChooser</value>
+  </data>
+  <data name="&gt;&gt;grpVectorChooser.Type">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpVectorChooser.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpVectorChooser.ZOrder">
+    <value>7</value>
+  </data>
+  <data name="cmbVectorSelector.Locked" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="cmbVectorSelector.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="cmbVectorSelector.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="cmbVectorSelector.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="cmbVectorSelector.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="cmbVectorSelector.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="cmbVectorSelector.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="cmbVectorSelector.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="cmbVectorSelector.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="cmbVectorSelector.IntegralHeight" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="cmbVectorSelector.ItemHeight" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>13</value>
+  </data>
+  <data name="cmbVectorSelector.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>58, 17</value>
+  </data>
+  <data name="cmbVectorSelector.MaxDropDownItems" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>8</value>
+  </data>
+  <data name="cmbVectorSelector.MaxLength" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>0</value>
+  </data>
+  <data name="cmbVectorSelector.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="cmbVectorSelector.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>72, 21</value>
+  </data>
+  <data name="cmbVectorSelector.TabIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>1</value>
+  </data>
+  <data name="cmbVectorSelector.Text">
+    <value />
+  </data>
+  <data name="cmbVectorSelector.ToolTip">
+    <value>Vector Selector</value>
+  </data>
+  <data name="cmbVectorSelector.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmbVectorSelector.Name">
+    <value>cmbVectorSelector</value>
+  </data>
+  <data name="&gt;&gt;cmbVectorSelector.Type">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbVectorSelector.Parent">
+    <value>grpVectorChooser</value>
+  </data>
+  <data name="&gt;&gt;cmbVectorSelector.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="lblCommentForComboBox.Locked" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="lblCommentForComboBox.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="lblCommentForComboBox.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="lblCommentForComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="lblCommentForComboBox.AutoSize" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="lblCommentForComboBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="lblCommentForComboBox.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="lblCommentForComboBox.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="lblCommentForComboBox.Image" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="lblCommentForComboBox.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblCommentForComboBox.ImageIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>-1</value>
+  </data>
+  <data name="lblCommentForComboBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCommentForComboBox.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>5, 20</value>
+  </data>
+  <data name="lblCommentForComboBox.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="lblCommentForComboBox.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>59, 16</value>
+  </data>
+  <data name="lblCommentForComboBox.TabIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>0</value>
+  </data>
+  <data name="lblCommentForComboBox.Text">
+    <value>&amp;Vector ID:</value>
+  </data>
+  <data name="lblCommentForComboBox.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>TopLeft</value>
+  </data>
+  <data name="lblCommentForComboBox.ToolTip">
+    <value />
+  </data>
+  <data name="lblCommentForComboBox.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblCommentForComboBox.Name">
+    <value>lblCommentForComboBox</value>
+  </data>
+  <data name="&gt;&gt;lblCommentForComboBox.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCommentForComboBox.Parent">
+    <value>grpVectorChooser</value>
+  </data>
+  <data name="&gt;&gt;lblCommentForComboBox.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="btnProperties.Locked" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="btnProperties.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnProperties.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnProperties.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="btnProperties.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnProperties.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="btnProperties.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="btnProperties.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Standard</value>
+  </data>
+  <data name="btnProperties.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnProperties.Image" type="System.Drawing.Bitmap, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAONJREFUWEftlVsO
+        xCAIRVm6S3NnzpCOKaLy0qSTVBM/qhSuB0SAM95HIBUAOuMEvo7AM3+R9ggoOWfXvMWuC3AFrkJ3CWiC
+        o1M/iTiB5eAoti1AFHMNtZjoSfnJPSRCAnYFDxHwBLeQmBIobIww0zVvGrRb0IQfOa8G1dGMjFBPYiPi
+        AJqilOhwKlRoSneVtw23b8WdAG2Bk8BvOvA7JMByJXk6eHDcDwvQTm7dlwX0L6DVr9kuLMCSAsnGVoT/
+        TMDMWDE8KQgTOCl4nMDjAt7biFZPPvp//hz3rRjQePcchOmWPuMu7C1O1eSrAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnProperties.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>BottomCenter</value>
+  </data>
+  <data name="btnProperties.ImageIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>-1</value>
+  </data>
+  <data name="btnProperties.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>NoControl</value>
+  </data>
+  <data name="btnProperties.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>177, 8</value>
+  </data>
+  <data name="btnProperties.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="btnProperties.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>38, 37</value>
+  </data>
+  <data name="btnProperties.TabIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>3</value>
+  </data>
+  <data name="btnProperties.Text">
+    <value />
+  </data>
+  <data name="btnProperties.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnProperties.ToolTip">
+    <value>Get or Change  Properties for Selected Vector.</value>
+  </data>
+  <data name="btnProperties.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnProperties.Name">
+    <value>btnProperties</value>
+  </data>
+  <data name="&gt;&gt;btnProperties.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnProperties.Parent">
+    <value>grpVectorChooser</value>
+  </data>
+  <data name="&gt;&gt;btnProperties.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="btnDelete.Locked" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="btnDelete.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnDelete.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnDelete.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="btnDelete.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnDelete.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="btnDelete.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="btnDelete.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Standard</value>
+  </data>
+  <data name="btnDelete.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="btnDelete.Image" type="System.Drawing.Bitmap, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAQZJREFUWEftllEO
+        wyAMQzn6jtabsUUqUpYSbIdJ3Ucr8dNC/OJAaGvPkzhwHEefjV3DYsxLvN5aj+P1eTfGCFABmcX9ijMT
+        z4BYEJRQGcAcYSBWALa+BDCCZhArJ30pqfqjsngIy6gsbjRIrPo9buJ0A1cF0Lql7TMaFFD5LotHIEUs
+        6x+X3a40kV0A5qjSPCrMOCG0ADNRgfg5gCIemxWTHJxzCwAS9U0mm1suBSvu73jp8sk8Z4WzzLad+GsA
+        X3NU21lnhF1xN3vUyhE0vJLpq/UkkV1gfyiglc4KH7PkgJr1qgwQIP4ZjQVKxqvjXQaAfZqYYKWgAIhY
+        pSkPwO0OWN3iHngDUP7hvTvJ/AEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnDelete.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnDelete.ImageIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>-1</value>
+  </data>
+  <data name="btnDelete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDelete.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>136, 8</value>
+  </data>
+  <data name="btnDelete.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="btnDelete.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>38, 37</value>
+  </data>
+  <data name="btnDelete.TabIndex" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>2</value>
+  </data>
+  <data name="btnDelete.Text">
+    <value />
+  </data>
+  <data name="btnDelete.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnDelete.ToolTip">
+    <value>Delete Selected Vector</value>
+  </data>
+  <data name="btnDelete.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Name">
+    <value>btnDelete</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Parent">
+    <value>grpVectorChooser</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="m_pdcPrintDocument.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>224, 6</value>
+  </data>
+  <data name="menuItem26.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItem26.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="menuItem26.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItem26.Text">
+    <value />
+  </data>
+  <data name="menuItem26.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.Locked" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>(Default)</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.Name">
+    <value>frmChild</value>
+  </data>
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>31</value>
+  </data>
+  <data name="$this.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="$this.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="$this.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="$this.AutoScaleBaseSize" type="System.Drawing.Size, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>5, 13</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScrollMargin" type="System.Drawing.Size, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="$this.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>848, 150</value>
+  </data>
+  <data name="$this.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>848, 593</value>
+  </data>
+  <data name="$this.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="$this.Enabled" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAICAQAAAAAADoAgAAJgAAABAQEAAAAAAAKAEAAA4DAAAoAAAAIAAAAEAAAAABAAQAAAAAAAAC
+        AAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAMDAwACAgIAAAAD/AAD/
+        AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiIiIiIiIgAAAAAAAAA
+        AAAAAAAAAAAIgAAAAAAAAAAAAAAAAAAAAIgA////////////////8AAIAP////////////////8ACAD/
+        ////////////////8AgA//sv/7Ivsi+y+yL7L/AIAP/7L/si+y/7L7L7Ky/wCAD/srL7Kysv+y+y+ysv
+        8AgA/7Ky/7L/sisi+yL7IvAIAPsv+y/////7L//////wCAD7L/sv////////////8AgA////////////
+        //////AIAP/////////////////wCAD/////////////////8AgA////kRERH5ERH/////AIAP///5ER
+        ER+RERH////wCAD///+RH///kR+RH///8AgA////+REf/5EfkR////AIAP/////5Ef+RH5Ef///wCAD/
+        //+RH5EfkRkR////8AgA////kRERH5EREf////AIAP////+REf+REf/////wCAD/////////////////
+        8AgA//////////////////AIAMzMzMzMzMzMzMzMzMzACADMzMzMzMzMzMzMzMzMwAgAzMzMzMzMzMzM
+        zMzMzMAAAAzMzMzMzMzMzMzMzMzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////AA
+        AAPgAAABwAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAA
+        AACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAAHAAAAD4AAAB///
+        //8oAAAAEAAAACAAAAABAAQAAAAAAIAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAgAAAgAAAAICAAIAA
+        AACAAIAAgIAAAMDAwACAgIAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AAAIiIiIiIgAAAAAAAAA
+        CIAA///////wiA////////8IDxmZkZmZ/wgPGf/xn/GfCA/xmfGf8Z8ID//xkZ/xnwgPGfGRn/GfCA/x
+        mfGZmf8ID////////wgMzMzMzMzMCAzMzMzMzMwIDMzMzMzMzAAAzMzMzMzAAAAAAAAAAAAA4AMAAMAB
+        AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAACAAwAAwAcAAA==
+</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>696, 456</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text">
+    <value>Untitled</value>
+  </data>
+  <data name="$this.ToolTip">
+    <value />
+  </data>
+  <data name="$this.Visible" type="System.Boolean, mscorlib, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pnlMousePosition.Name">
+    <value>pnlMousePosition</value>
+  </data>
+  <data name="&gt;&gt;pnlMousePosition.Type">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlLenghtOfCurrentVector.Name">
+    <value>pnlLenghtOfCurrentVector</value>
+  </data>
+  <data name="&gt;&gt;pnlLenghtOfCurrentVector.Type">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlResult.Name">
+    <value>pnlResult</value>
+  </data>
+  <data name="&gt;&gt;pnlResult.Type">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlTotalVectors.Name">
+    <value>pnlTotalVectors</value>
+  </data>
+  <data name="&gt;&gt;pnlTotalVectors.Type">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlZoom.Name">
+    <value>pnlZoom</value>
+  </data>
+  <data name="&gt;&gt;pnlZoom.Type">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlArrangeModeNormal.Name">
+    <value>pnlArrangeModeNormal</value>
+  </data>
+  <data name="&gt;&gt;pnlArrangeModeNormal.Type">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlArrangeModeCenter.Name">
+    <value>pnlArrangeModeCenter</value>
+  </data>
+  <data name="&gt;&gt;pnlArrangeModeCenter.Type">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlArrangeModeAdd.Name">
+    <value>pnlArrangeModeAdd</value>
+  </data>
+  <data name="&gt;&gt;pnlArrangeModeAdd.Type">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuMainMenu.Name">
+    <value>mnuMainMenu</value>
+  </data>
+  <data name="&gt;&gt;mnuMainMenu.Type">
+    <value>System.Windows.Forms.MainMenu, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChildFile.Name">
+    <value>mnuChildFile</value>
+  </data>
+  <data name="&gt;&gt;mnuChildFile.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChildFileSave.Name">
+    <value>mnuChildFileSave</value>
+  </data>
+  <data name="&gt;&gt;mnuChildFileSave.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChildFileSaveAs.Name">
+    <value>mnuChildFileSaveAs</value>
+  </data>
+  <data name="&gt;&gt;mnuChildFileSaveAs.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChildFileSaveAPicture.Name">
+    <value>mnuChildFileSaveAPicture</value>
+  </data>
+  <data name="&gt;&gt;mnuChildFileSaveAPicture.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChildFileSeperator2.Name">
+    <value>mnuChildFileSeperator2</value>
+  </data>
+  <data name="&gt;&gt;mnuChildFileSeperator2.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChildFilePrintSetup.Name">
+    <value>mnuChildFilePrintSetup</value>
+  </data>
+  <data name="&gt;&gt;mnuChildFilePrintSetup.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChildFilePrintPreview.Name">
+    <value>mnuChildFilePrintPreview</value>
+  </data>
+  <data name="&gt;&gt;mnuChildFilePrintPreview.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChildFilePrint.Name">
+    <value>mnuChildFilePrint</value>
+  </data>
+  <data name="&gt;&gt;mnuChildFilePrint.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChildFileSeperator3.Name">
+    <value>mnuChildFileSeperator3</value>
+  </data>
+  <data name="&gt;&gt;mnuChildFileSeperator3.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChildVector.Name">
+    <value>mnuChildVector</value>
+  </data>
+  <data name="&gt;&gt;mnuChildVector.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChildVectorNew.Name">
+    <value>mnuChildVectorNew</value>
+  </data>
+  <data name="&gt;&gt;mnuChildVectorNew.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuVectorSeperatorM.Name">
+    <value>mnuVectorSeperatorM</value>
+  </data>
+  <data name="&gt;&gt;mnuVectorSeperatorM.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChildVectorDeleteSelected.Name">
+    <value>mnuChildVectorDeleteSelected</value>
+  </data>
+  <data name="&gt;&gt;mnuChildVectorDeleteSelected.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChildVectorDeleteLast.Name">
+    <value>mnuChildVectorDeleteLast</value>
+  </data>
+  <data name="&gt;&gt;mnuChildVectorDeleteLast.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChildVectorDeleteAll.Name">
+    <value>mnuChildVectorDeleteAll</value>
+  </data>
+  <data name="&gt;&gt;mnuChildVectorDeleteAll.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuVectorSeperator.Name">
+    <value>mnuVectorSeperator</value>
+  </data>
+  <data name="&gt;&gt;mnuVectorSeperator.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuReset.Name">
+    <value>mnuReset</value>
+  </data>
+  <data name="&gt;&gt;mnuReset.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuMakeCenter.Name">
+    <value>mnuMakeCenter</value>
+  </data>
+  <data name="&gt;&gt;mnuMakeCenter.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuAdd.Name">
+    <value>mnuAdd</value>
+  </data>
+  <data name="&gt;&gt;mnuAdd.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChildSeperator1.Name">
+    <value>mnuChildSeperator1</value>
+  </data>
+  <data name="&gt;&gt;mnuChildSeperator1.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChildVectorProperties.Name">
+    <value>mnuChildVectorProperties</value>
+  </data>
+  <data name="&gt;&gt;mnuChildVectorProperties.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChildTools.Name">
+    <value>mnuChildTools</value>
+  </data>
+  <data name="&gt;&gt;mnuChildTools.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChildToolsZoom.Name">
+    <value>mnuChildToolsZoom</value>
+  </data>
+  <data name="&gt;&gt;mnuChildToolsZoom.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChildToolsCalculator.Name">
+    <value>mnuChildToolsCalculator</value>
+  </data>
+  <data name="&gt;&gt;mnuChildToolsCalculator.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuChildToolsS1.Name">
+    <value>mnuChildToolsS1</value>
+  </data>
+  <data name="&gt;&gt;mnuChildToolsS1.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItem1.Name">
+    <value>menuItem1</value>
+  </data>
+  <data name="&gt;&gt;menuItem1.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ctxMainContextMenu.Name">
+    <value>ctxMainContextMenu</value>
+  </data>
+  <data name="&gt;&gt;ctxMainContextMenu.Type">
+    <value>System.Windows.Forms.ContextMenu, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu10.Name">
+    <value>CtxMenu10</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu10.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu20.Name">
+    <value>CtxMenu20</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu20.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu30.Name">
+    <value>CtxMenu30</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu30.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu40.Name">
+    <value>CtxMenu40</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu40.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu50.Name">
+    <value>CtxMenu50</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu50.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu60.Name">
+    <value>CtxMenu60</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu60.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu70.Name">
+    <value>CtxMenu70</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu70.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu80.Name">
+    <value>CtxMenu80</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu80.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu90.Name">
+    <value>CtxMenu90</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu90.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenuS1.Name">
+    <value>CtxMenuS1</value>
+  </data>
+  <data name="&gt;&gt;CtxMenuS1.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu100.Name">
+    <value>CtxMenu100</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu100.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenuS2.Name">
+    <value>CtxMenuS2</value>
+  </data>
+  <data name="&gt;&gt;CtxMenuS2.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu110.Name">
+    <value>CtxMenu110</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu110.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu120.Name">
+    <value>CtxMenu120</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu120.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu130.Name">
+    <value>CtxMenu130</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu130.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu140.Name">
+    <value>CtxMenu140</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu140.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu150.Name">
+    <value>CtxMenu150</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu150.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu160.Name">
+    <value>CtxMenu160</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu160.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu170.Name">
+    <value>CtxMenu170</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu170.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu180.Name">
+    <value>CtxMenu180</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu180.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu190.Name">
+    <value>CtxMenu190</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu190.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu200.Name">
+    <value>CtxMenu200</value>
+  </data>
+  <data name="&gt;&gt;CtxMenu200.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenuS3.Name">
+    <value>CtxMenuS3</value>
+  </data>
+  <data name="&gt;&gt;CtxMenuS3.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CtxMenuCustom.Name">
+    <value>CtxMenuCustom</value>
+  </data>
+  <data name="&gt;&gt;CtxMenuCustom.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tltToolTip.Name">
+    <value>tltToolTip</value>
+  </data>
+  <data name="&gt;&gt;tltToolTip.Type">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_pdcPrintDocument.Name">
+    <value>m_pdcPrintDocument</value>
+  </data>
+  <data name="&gt;&gt;m_pdcPrintDocument.Type">
+    <value>System.Drawing.Printing.PrintDocument, System.Drawing, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;menuItem26.Name">
+    <value>menuItem26</value>
+  </data>
+  <data name="&gt;&gt;menuItem26.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>frmChild</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

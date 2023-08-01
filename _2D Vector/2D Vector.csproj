@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="2.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{7411605B-129B-42B7-B4FD-50EAA65ED8ED}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>2D_Vector</RootNamespace>
+    <AssemblyName>2D Vector</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <TargetFrameworkProfile />
+    <ApplicationIcon>Img\Vector.ico</ApplicationIcon>
+    <NoWin32Manifest>False</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\2D Vector 3.0.gif" />
+    <None Include="Img\Add.ico" />
+    <None Include="Img\CALC3.ICO" />
+    <None Include="Img\Center.ico" />
+    <None Include="Img\Delete All.ico" />
+    <None Include="Img\Delete Last.ico" />
+    <None Include="Img\New W.ico" />
+    <None Include="Img\norm.ico" />
+    <None Include="Img\Properties.ico" />
+    <None Include="Properties\app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About Form.cs" />
+    <Compile Include="Calculator.cs" />
+    <Compile Include="Child Form.cs" />
+    <Compile Include="Custom Zoom.cs" />
+    <Compile Include="Main Form.cs" />
+    <Compile Include="New Wizard.cs" />
+    <Compile Include="Option Form.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Property.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="About Form.resx">
+      <DependentUpon>About Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculator.resx">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Child Form.resx">
+      <DependentUpon>Child Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom Zoom.resx">
+      <DependentUpon>Custom Zoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form.resx">
+      <DependentUpon>Main Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Wizard.resx">
+      <DependentUpon>New Wizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Option Form.resx">
+      <DependentUpon>Option Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Property.resx">
+      <DependentUpon>Property.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Img" />
+    <Folder Include="Properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NumericTextBox\NumericTextBox.csproj">
+      <Project>{8c4fb59c-30a6-4fd6-9c4b-dcb63b86dd7f}</Project>
+      <Name>NumericTextBox</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Screen Vector User Control\Screen Vector User Control.csproj">
+      <Project>{fe3f34fc-8114-4a1e-a420-3e44544ec3d0}</Project>
+      <Name>Screen Vector User Control</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
