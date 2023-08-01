@@ -399,3 +399,4 @@ FodyWeavers.xsd
 
 # Ignore delphi binary files
 *.dcu
+*.dll
