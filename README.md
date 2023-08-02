@@ -1,6 +1,6 @@
 # 2D-Vector
 ### Description
-2D Vector is a simple visual vector calculator that was developed about 2002 when I was about 17 years old.
+2D Vector is a visual vector calculator that was developed about 2002 when I was in high school.
 
 ### [Download](https://github.com/ArdeshirV/2D-Vector/releases/download/V1.0.0.0/2D.Vector.Portable.zip)
 
